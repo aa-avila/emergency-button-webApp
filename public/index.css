@@ -1,0 +1,25 @@
+.main-container {
+    height: 100vh;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.red-state-off {
+    background-color: #834d4d;
+}
+
+.red-state-on {
+    background-color: #ff0033;
+}
+
+.green-state-off {
+    background-color: #586d58;
+}
+
+.green-state-on {
+    background-color: #00ff0d;
+}

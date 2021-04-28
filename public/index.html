@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Button</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css"
+    integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <div class="main-container d-flex flex-column align-items-center justify-content-between">
+    <header>
+      <h1>Emergency Button</h1>
+    </header>
+    <main>
+      <button id="btn-red-alert" class="btn red-state-off" onclick="handleBtn_red()">
+        ROJO
+      </button>
+      <button id="btn-green-alert" class="btn green-state-off" onclick="handleBtn_green()">
+        VERDE
+      </button>
+    </main>
+    <footer>
+      <a href="https://github.com/aa-avila">aa-avila on GItHub</a>
+    </footer>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+  <script src="./index.js"></script>
+
+  <script></script>
+</body>
+
+</html>
